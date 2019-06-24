@@ -267,7 +267,7 @@ int main(void) {
     listResult *answer = initializelistResult();
     for (int w=0;w<j;w++)
     {
-        printf("C=%f", C[w]);
+        printf("//C=%f", C[w]);
         putResult(answer ,C[w]);
     }
     printf("j=%i", j);
